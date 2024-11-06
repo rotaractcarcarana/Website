@@ -55,10 +55,10 @@ body {
 }
 
 .logo-1 {
-    width: 0;
+    width: 50px;
 }
 .logo-2 {
-    width: 0px;
+    width: 50px;
 }
 
 .socials {
@@ -491,7 +491,7 @@ body {
     }
 
     .logo-1 {
-        width: 11px;
+        width: 50px;
     }
 
     .logo-2 {
