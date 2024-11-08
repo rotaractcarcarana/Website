@@ -486,7 +486,7 @@ body {
 @media(max-width: 440px) {
     .menu {
         padding: 20px;
-        display: flex;
+        display: none;
         justify-content: center;
     }
 
@@ -507,7 +507,7 @@ body {
     }
 
     .menu label {
-        display: center;
+        display: flex;
     }
 
     .menu .nav-bar {
