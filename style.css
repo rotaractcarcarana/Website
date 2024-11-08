@@ -483,7 +483,7 @@ body {
 /* DESPLAZAMIENTO DE MENU */
 
 
-@media(max-width: 991px) {
+@media(max-width: 440px) {
     .menu {
         padding: 20px;
         display: flex;
@@ -515,7 +515,7 @@ body {
         position: absolute;
         top: 100%;
         border: 2px solid white;
-        background-color: rgba(254, 1, 52, 0);
+        background-color: white;
         border-radius: 10px 10px 10px 10px;
   
     }
@@ -527,7 +527,7 @@ body {
     }
 
     .menu .nav-bar ul li a {
-        background-color: #d32364;
+        background-color: gray;
         color: #FFFFFF;
         display: flex;
         justify-content: center;
@@ -535,12 +535,12 @@ body {
 
     .menu .nav-bar ul li a:hover {
         border: 1px solid white;
-        background-color: #d32364;
+        background-color: green;
         color: #000000;
     }
 
     #menu:checked ~ .nav-bar {
-        display: none;
+        display: flex;
     }
 
     .header-content {
