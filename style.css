@@ -174,7 +174,7 @@ body {
 }
 
 .slider-img {
-    width: 50%;
+    
 }
 
 .slider-img img {
@@ -573,13 +573,15 @@ body {
     }
 
     .slider-img {
-        width: 100%;
+        width: 550px;
+        height: 300px;
         text-align: center;
     }
 
     .slider-img img {
         margin-right: 0px;
-        width: 300px;
+        width: 550px;
+        height: 300px;
     }
 
     .swiper-horizontal > .swiper-pagination-bullets,
