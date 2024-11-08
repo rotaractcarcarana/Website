@@ -16,15 +16,11 @@ body {
     background-color: #000000;
     font-family: "Poppins", sans-serif;
     margin-inline: 30px;
-    width: 400px;
-    height: 250px;
 }
 
 .container {
     margin: 0 auto;
     margin-bottom: 150px;
-    width: 400px;
-    height: 250px;
 }
 
 
@@ -60,11 +56,9 @@ body {
 
 .logo-1 {
     width: 50px;
-    height: 50px;
 }
 .logo-2 {
     width: 50px;
-    height: 50px;
 }
 
 .socials {
@@ -94,7 +88,6 @@ body {
 .menu .nav-bar ul li {
     position: relative;
     float: left;
-    background-color: #000000;
 }
 
 .menu .nav-bar ul li a {
@@ -115,22 +108,17 @@ body {
 
 .menu-icono {
     width: 25px;
-    height: 25px;
 }
 
 .menu label {
     cursor: pointer;
     display: none;
-    width: 25px;
-    height: 25px;
 }
 
 
 .header-content {
     margin-top: 250px;
     padding-bottom: 100px;
-    width: 400px;
-    height: 200px;
 }
 
 
@@ -186,19 +174,13 @@ body {
 }
 
 .slider-img {
-    width: 250px;
-    height: 150px;
+    width: 50%;
 }
 
 .slider-img img {
-    width: 250px;
-    height: 150px;
+    width: 550px;
+    height: 300px;
     
-}
-
-.imagen-flyer {
-    width: 250px;
-    height: 150px;
 }
 
 /* SWIPERS DE BOTONES */
@@ -496,10 +478,10 @@ body {
 /* DESPLAZAMIENTO DE MENU */
 
 
-@media(max-width: 440px) {
+@media(max-width: 991px) {
     .menu {
         padding: 20px;
-        display: none;
+        display: flex;
         justify-content: center;
     }
 
@@ -513,14 +495,14 @@ body {
     }
 
     .logo-2 {
-        width: 50px;
+        width: 11px;
         height: 50px;
         padding-top: 50px;
         padding-right: 10px;
     }
 
     .menu label {
-        display: flex;
+        display: center;
     }
 
     .menu .nav-bar {
@@ -528,7 +510,7 @@ body {
         position: absolute;
         top: 100%;
         border: 2px solid white;
-        background-color: white;
+        background-color: rgba(254, 1, 52, 0);
         border-radius: 10px 10px 10px 10px;
   
     }
@@ -540,7 +522,7 @@ body {
     }
 
     .menu .nav-bar ul li a {
-        background-color: gray;
+        background-color: #d32364;
         color: #FFFFFF;
         display: flex;
         justify-content: center;
@@ -548,12 +530,12 @@ body {
 
     .menu .nav-bar ul li a:hover {
         border: 1px solid white;
-        background-color: green;
+        background-color: #d32364;
         color: #000000;
     }
 
     #menu:checked ~ .nav-bar {
-        display: flex;
+        display: none;
     }
 
     .header-content {
@@ -586,15 +568,13 @@ body {
     }
 
     .slider-img {
-        width: 550px;
-        height: 300px;
+        width: 100%;
         text-align: center;
     }
 
     .slider-img img {
         margin-right: 0px;
-        width: 550px;
-        height: 300px;
+        width: 300px;
     }
 
     .swiper-horizontal > .swiper-pagination-bullets,
